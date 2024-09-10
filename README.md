@@ -38,30 +38,30 @@ df=pd.DataFrame(data.data,columns=data.feature_names)
 df['target']=data.target
 print(df.head())
 ```
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/a0ec6323-828a-44a1-9509-cfa3ec43539d">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/a0ec6323-828a-44a1-9509-cfa3ec43539d">
 
 ```
 df.info()
 ```
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/1d36fa72-9bc3-4186-b7b7-01bfb78896ba">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/1d36fa72-9bc3-4186-b7b7-01bfb78896ba">
 
 ```
 X=df.drop(columns=['AveOccup','target'])
 X.info()
 ```
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/79c58689-4d5b-4ef3-b812-8af90ce2635d">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/79c58689-4d5b-4ef3-b812-8af90ce2635d">
 
 ```
 Y=df[['AveOccup','target']]
 Y.info()
 ```
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/2fd72354-1f3f-43d0-946a-bc2fe82ac5b1">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/2fd72354-1f3f-43d0-946a-bc2fe82ac5b1">
 
 ```
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=1)
 X.head()
 ```
-<img width="471" alt="image" src="https://github.com/user-attachments/assets/9345586a-f14a-46fb-8353-665c7cd81418">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/9345586a-f14a-46fb-8353-665c7cd81418">
 
 
 ```
@@ -75,7 +75,7 @@ Y_test = scaler_Y.transform(Y_test)
 print(X_train)
 ```
 
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/d1170ed7-b24d-44d5-af49-2c21a55c09b9">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/d1170ed7-b24d-44d5-af49-2c21a55c09b9">
 
 ```
 # Initialize the SGDRegressor
@@ -113,7 +113,7 @@ print("Mean Squared Error:", mse)
 # Optionally, print some predictions
 print("\nPredictions:\n", Y_pred[:5])
 ```
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/ce694f32-0b32-411b-a934-883f5d712161">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/ce694f32-0b32-411b-a934-883f5d712161">
 
 ```
 ## Result:
