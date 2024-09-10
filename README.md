@@ -43,7 +43,7 @@ print(df.head())
 ```
 df.info()
 ```
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/1d36fa72-9bc3-4186-b7b7-01bfb78896ba">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/1d36fa72-9bc3-4186-b7b7-01bfb78896ba">
 
 ```
 X=df.drop(columns=['AveOccup','target'])
