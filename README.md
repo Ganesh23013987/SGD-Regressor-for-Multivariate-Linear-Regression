@@ -19,8 +19,9 @@ Predict on test data, inverse transform the results, and calculate the mean squa
 
 
 ## Program:
-```
+
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
+```
 Developed by: GANESH D
 RegisterNumber: 212223240035
 
