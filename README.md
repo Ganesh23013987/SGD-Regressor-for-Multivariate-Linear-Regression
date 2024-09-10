@@ -43,7 +43,7 @@ print(df.head())
 ```
 df.info()
 ```
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/1d36fa72-9bc3-4186-b7b7-01bfb78896ba">
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/1d36fa72-9bc3-4186-b7b7-01bfb78896ba">
 
 ```
 X=df.drop(columns=['AveOccup','target'])
@@ -114,9 +114,7 @@ print("Mean Squared Error:", mse)
 print("\nPredictions:\n", Y_pred[:5])
 ```
 
-```
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/ce694f32-0b32-411b-a934-883f5d712161">
-```
 
 
 ## Result:
